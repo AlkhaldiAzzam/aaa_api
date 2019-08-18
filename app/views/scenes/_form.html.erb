@@ -1,0 +1,42 @@
+<%= form_with(model: scene, local: true) do |form| %>
+  <% if scene.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(scene.errors.count, "error") %> prohibited this scene from being saved:</h2>
+
+      <ul>
+      <% scene.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :scene_text %>
+    <%= form.text_area :scene_text %>
+  </div>
+
+  <div class="field">
+    <%= form.label :left_text %>
+    <%= form.text_field :left_text %>
+  </div>
+
+  <div class="field">
+    <%= form.label :left_id %>
+    <%= form.number_field :left_id %>
+  </div>
+
+  <div class="field">
+    <%= form.label :right_text %>
+    <%= form.text_field :right_text %>
+  </div>
+
+  <div class="field">
+    <%= form.label :right_id %>
+    <%= form.number_field :right_id %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

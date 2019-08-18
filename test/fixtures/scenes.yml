@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  scene_text: MyText
+  left_text: MyString
+  left_id: 1
+  right_text: MyString
+  right_id: 1
+
+two:
+  scene_text: MyText
+  left_text: MyString
+  left_id: 1
+  right_text: MyString
+  right_id: 1

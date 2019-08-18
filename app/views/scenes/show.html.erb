@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Scene text:</strong>
+  <%= @scene.scene_text %>
+</p>
+
+<p>
+  <strong>Left text:</strong>
+  <%= @scene.left_text %>
+</p>
+
+<p>
+  <strong>Left:</strong>
+  <%= @scene.left_id %>
+</p>
+
+<p>
+  <strong>Right text:</strong>
+  <%= @scene.right_text %>
+</p>
+
+<p>
+  <strong>Right:</strong>
+  <%= @scene.right_id %>
+</p>
+
+<%= link_to 'Edit', edit_scene_path(@scene) %> |
+<%= link_to 'Back', scenes_path %>
