@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Scene.create(scene_text: 'bhvrkgdskjgf' , left_text: 'hfeygw' , right_text: 'jcgewj')
+Scene.create(scene_text: 'bhvrkgdskjgf' , left_text: 'hfeygw' , right_text: 'jcgewj')
+Scene.create(scene_text: 'bhvrkgdskjgf' , left_text: 'hfeygw' , right_text: 'jcgewj')
