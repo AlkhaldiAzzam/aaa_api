@@ -10,6 +10,7 @@
       <th>Left</th>
       <th>Right text</th>
       <th>Right</th>
+      <th>Previous ID:</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -22,6 +23,7 @@
         <td><%= scene.left_id %></td>
         <td><%= scene.right_text %></td>
         <td><%= scene.right_id %></td>
+        <td><%= scene.prev_id %></td>
         <td><%= link_to 'Show', scene %></td>
         <td><%= link_to 'Edit', edit_scene_path(scene) %></td>
         <td><%= link_to 'Destroy', scene, method: :delete, data: { confirm: 'Are you sure?' } %></td>
